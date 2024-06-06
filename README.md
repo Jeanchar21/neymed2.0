@@ -1,0 +1,2 @@
+Recomenda-se o uso da extensão Live Server, no Visual Studio Code, para visualização deste pequeno projeto de estudo. Essa versão foi feita em EcmaScript (javaScript puro), também foi feita uma versão com React que subirá em seguida.
+O nome do projeto é apenas uma brincadeira interna, no entanto sua parte lógica tratou-se de um estudo iniciante muito produtivo. Explorei fundamentos muito úteis que trabalham com o armazenamento e manipulação de dados diretamente da LocalStorage.
