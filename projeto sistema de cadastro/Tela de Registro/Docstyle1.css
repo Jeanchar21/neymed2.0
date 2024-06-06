@@ -1,0 +1,87 @@
+body {
+    background: rgb(45, 115, 124);
+    font: Normal 18pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+section{
+    text-align: center;
+}
+div {
+    padding: 6px;
+}
+
+div#btn4 {
+    text-align: right;
+    padding: 40px 20px;
+}
+
+button#btn1 {
+    background-color: rgb(190, 228, 253);
+    font-size: 12pt;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px 1px rgba(48, 48, 48, 0.514);
+    margin-bottom: 1em;
+    width: 299px;
+    height: 47px;
+    cursor: pointer;
+}
+button#btn1:hover {
+    background-color: rgb(176, 210, 233);
+}
+
+button#btn2 {
+    background-color: rgb(190, 228, 253);
+    font-size: 12pt;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px 1px rgba(48, 48, 48, 0.514);
+    margin-bottom: 1em;
+    width: 299px;
+    height: 47px;
+    cursor: pointer;
+}
+button#btn2:hover {
+    background-color: rgb(176, 210, 233);
+}
+
+button#btn3 {
+    background-color: rgb(190, 228, 253);
+    font-size: 12pt;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px 1px rgba(48, 48, 48, 0.514);
+    margin-bottom: 1em;
+    width: 299px;
+    height: 47px;
+    cursor: pointer;
+}
+button#btn3:hover {
+    background-color: rgb(176, 210, 233);
+}
+
+button#btn4 {
+    background-color: rgba(255, 2, 2, 0.699);
+    border-radius: 7px;
+    width: 150px;
+    height: 30px;
+    color: white;
+    font-size: 10pt;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+button#btn4:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 2, 2);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font: italic 10pt Arial;
+}

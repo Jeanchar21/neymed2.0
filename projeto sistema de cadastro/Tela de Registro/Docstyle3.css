@@ -1,0 +1,251 @@
+body {
+    padding: 0px 60px;
+    background: rgb(45, 115, 124);
+    font: Normal 16pt Arial;
+    color: white;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+
+button#busc {
+    width: 100px;
+    height: auto;
+    font-size: 18pt;
+    background-color: rgba(70, 172, 255, 0.61);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+button#busc:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgba(70, 172, 255);
+}
+
+div#searchnome {
+    display: inline-block;
+    font-size: 11pt;
+    height: 30px;
+}
+
+.search {
+    display: none;
+    flex-direction: column;
+    background: #cafcfdd7;
+    width: 500px;
+    position: relative;
+}
+
+.search input{
+    height: auto;
+    width: 100%;
+    background: rgba(255, 255, 255, 0);
+    outline: none;
+    border: none;
+    padding: 0 0 0 10px;
+    font-size: 18pt;
+}
+
+.search .list{
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 260px;
+    overflow-y: auto;
+}
+
+.search.active .list{
+    padding: 8px 0px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.list li{
+    color: black;
+    list-style: none;
+    padding: 8px 0px;
+    display: none;
+    width: 100%;
+    cursor: default;
+}
+
+.search.active .list li{
+    display: block;
+}
+
+.list li:hover{
+    background: #cafcfdd7;
+}
+
+input#idb {
+    width: 90px;
+    height: 30px;
+    font-size: 18pt;
+}
+
+div#top {
+    padding-bottom: 60px;
+}
+
+section#result {
+    z-index:0;
+    padding: 60px 60px;
+    background: white;
+    border-radius: 15px;
+    color: rgb(44, 44, 44);
+}
+
+footer {
+    padding: 20px 0px;
+    color: white;
+    text-align: center;
+    font: italic 10pt Arial;
+}
+
+div {
+    padding: 3px 9px;
+}
+
+div#nome {
+    display: inline-block;
+}
+
+div#nomeso {
+    font-size: 14pt;
+    display: inline-block;
+}
+
+div#dtnsc {
+    display: inline-block;
+}
+
+div#cpf {
+    display: inline-block;
+}
+
+div#cpfr{
+    font-size: 10pt;
+}
+
+
+div#rg {
+    display: inline-block;
+}
+
+div#sexo {
+    display: inline-block;
+}
+
+div#endttl {
+    margin-left: 533px;
+}
+
+div#end1 {
+    display: inline-block;
+    padding: 0px 2px;
+    margin-left: 432px;
+}
+
+div#bairro{
+    display: inline-block;
+}
+
+div#comp {
+    display: inline-block;
+    margin-left: 382px;
+    margin-top: 0;
+}
+
+div#cdd {
+    display: inline-block;
+}
+
+div#uf {
+    display: inline-block;
+}
+
+p {
+    font-size: 10pt;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+div#tel {
+    display: inline-block;
+}
+
+input#log {
+    width: 190px;
+    height: 20px;
+    font-size: 12pt;
+}
+
+input#bairro {
+    width: 100px;
+    height: 20px;
+    font-size: 12pt;
+}
+
+input#cdd {
+    width: 111px;
+    height: 20px;
+    font-size: 12pt;
+}
+
+input#ufa {
+    width: 42px;
+    height: 20px;
+    font-size: 12pt;
+}
+
+input#cpf {
+    width: 120px;
+    height: auto;
+    font-size: 13pt;
+}
+
+input#rg {
+    width: 90px;
+    height: auto;
+    font-size: 13pt;
+}
+
+input#dtnas {
+    font-size: 14pt;
+    width: 150px;
+    height: auto;
+}
+
+input#nomeusu{
+    width: 500px;
+    height: auto;
+    font-size: 14pt;
+}
+
+input#nomesoc {
+    width: 300px;
+    height: auto;
+    font-size: 14pt;
+}
+
+input#comp {
+    width: 170px;
+    height: 20px;
+    font-size: 12pt;
+}
+
+input#sex {
+    width: 77px;
+}
+
+input#tel {
+    width: 120px;
+    height: auto;
+    font-size: 12pt;
+}

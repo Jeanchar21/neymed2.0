@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Busca</title>
+    <link rel="stylesheet" href="Docstyle3.css">
+</head>
+<body>
+    <header>
+        <h1>Tela de busca</h1>
+    </header>
+    <section>
+        <div id="top">
+                <label for="lbl1">ID:</label> <input type="text" name="idb" id="idb" maxlength="3" placeholder="ID..." oninput="this.value = this.value.replace(/[^0-9]/g, '');" /><div class="search">
+                <input type="search" name="namebar" id="namebar" placeholder="Pesquisar por nome...">
+                <div class="list">
+                </div>
+            </div><button type="button" id="busc" onclick="Buscar()">Buscar</button><div id="searchnome"><input type="checkbox" name="searchnome" id="searchnome" onclick="Config()">Por nome</div></div>
+            <div>
+        </div>
+        <section id="result" style="display: none;">
+            <div id="nome">Nome<br> <input type="text" name="nomeusu" id="nomeusu" maxlength="100" disabled></div>
+            <div id="nomeso">Nome Social<br> <input type="text" name="nomesoc" id="nomesoc" maxlength="100" disabled></div>
+            <div id="dtnsc"> Dt. nascimento <br> <input type="text" name="dtnas" id="dtnas" placeholder=" dd / mm / aaaa" disabled></div>
+            <div></div>
+            <div id="cpf"> <label id="cpfc" for="cpfc">CPF</label> <br> <input type="text" id="cpf" autocomplete="off" maxlength="14" placeholder="___.___.___-__" disabled/></div>
+            <div id="rg"> RG <br> <input type="text" id="rg" autocomplete="off" maxlength="10" placeholder="__.___.___" disabled/></div>
+            <div id="endttl">Endereço</div>
+            <div id="sexo"> Sexo <br> <input type="text" name="sex" id="sex" disabled></div>
+            <div id="end1">
+            <p>Logradouro</p> <input type="text" name="log" id="log" disabled> </div>
+            <div id="bairro"><p>Bairro</p> <input type="text" name="bairro" id="bairro" disabled></div>
+            <div></div>
+            <div id="tel"> Telefone <br> <input type="text" id="tel" autocomplete="off" maxlength="14" placeholder="(__) _____-____" disabled/></div>
+            <div id="comp">
+            <p>Complemento</p> <input type="text" name="comp" id="comp" disabled></div>
+            <div id="cdd">
+            <p>Cidade</p> <input type="text" name="cdd" id="cdd" disabled></div>
+            <div id="uf">
+                <p>UF</p><input type="text" name="ufa" id="ufa" disabled></div>
+        </section>
+    </section>
+    <footer>
+        <p>&copy;NeymedEnterteinment</p>
+    </footer>
+    <script src="Doclogic3.js"></script>
+</body>
+</html>
