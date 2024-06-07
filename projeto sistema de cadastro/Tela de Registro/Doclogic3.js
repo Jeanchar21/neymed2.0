@@ -94,7 +94,7 @@
 
         if (userData) {
             emptyArray = sugestoes.filter((data)=>{
-                return data.toLocaleLowerCase().indexOf(userData.toLowerCase() > -1)
+                return data.toLocaleLowerCase().indexOf(userData.toLowerCase()) > -1
             })
 
             emptyArray = emptyArray.map((data)=>{
